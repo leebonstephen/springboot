@@ -1,0 +1,20 @@
+name: build project
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  buildjob1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: buildstep1
+        uses: actions/cleckout@v4
+
+  buildjob2:
+    runs-on: macos-latest
+    steps:
+      - name: buildstep2
+        uses: actions/cleckout@v4
+
