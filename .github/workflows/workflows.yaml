@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: buildstep1
-        uses: actions/cleckout@v4
+        uses: actions/checkout@v4
 
   buildjob2:
     runs-on: macos-latest
     steps:
       - name: buildstep2
-        uses: actions/cleckout@v4
+        uses: actions/checkout@v4
 
